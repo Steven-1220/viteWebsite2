@@ -24,7 +24,7 @@ function moveOutputPlugin() {
 
 export default defineConfig({
   // base 的寫法：
-  // base: '/Repository 的名稱/'
+  // base: '/ 自己在 github Repository 設定的名稱/'
   base: '/viteWebsite2/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
@@ -49,3 +49,5 @@ export default defineConfig({
     outDir: 'dist',
   },
 });
+
+// 開發時建議， html 放 pages 資料夾，靜態檔案和 scss 放 assets 資料夾
