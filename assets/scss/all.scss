@@ -1,5 +1,13 @@
+// assets 內的 scss 資料夾，裡面的資料夾可自行命名(如 layout 可命名自己想要設定的名稱)
+
+@import './reset';
+@import './variable';
+
+// 工具類
+
+// layout(共用區塊)
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-
+// 每個不同的頁面
 @import './pages/index.scss';

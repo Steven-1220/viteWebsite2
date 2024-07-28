@@ -1,3 +1,18 @@
 .index-title {
   font-size: 100px;
 }
+
+.cat {
+  width: 100px;
+  height: 100px;
+  background: url(../images/cat.jpg);
+}
+
+.header {
+  color: $primary;
+  font-size: $font-xl;
+}
+
+.content {
+  background: $primary;
+}
